@@ -1,7 +1,25 @@
 aid: theres-camping
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/theres-camping.png
 name: Theres Camping
-description: Theres Camping is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Theres (데얼스, Theres Co., Ltd.) is a South Korean e-commerce marketplace
+  for outdoor and camping gear, where customers buy both new and second-hand equipment
+  in one place. The platform aggregates brands and vendors (Grape Box, Camping Khan,
+  Ridge Mountain Gear, Matador, and others), offering product search, a shopping cart,
+  deal notifications, a community section, and vendor/product listing tools. Based
+  in Seoul (Seocho-gu), Theres is a portfolio company of 500 Global. The company
+  publishes a consumer web/app storefront and does not currently expose a public
+  developer API, documentation, or integration surface.
 url: https://raw.githubusercontent.com/api-evangelist/theres-camping/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- E-Commerce
+- Marketplace
+- Outdoor
+- Camping
+- Retail
+- Korea
+- Second-Hand
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/theres-camping-domain-security.yml
 - type: Website
   url: https://theres.co
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
